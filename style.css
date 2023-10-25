@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: pink;
+}
+.main-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 1000px;
+position: relative;
+top: 80px;
+left: 275px;
+}
+.container1{
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
+.container2{
+  background-color: red;
+  width: 500px;
+  height: 500px;
+}
+h1#first{
+  margin-top: 57px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+div.icons{
+  display: flex;
+  justify-content: center;
+  font-size: 8px;
+  margin: 28px 0 28px 0;
+}
+.fa-facebook{
+  margin-right: 22px;
+  color: blue;
+}
+.fa-twitter{
+  margin-left: 20px;
+  color: rgb(0, 215, 215);
+}
+h3{
+ display: flex;
+ justify-content: center;
+ font-size: 19px;
+ margin: 20px 0 20px 0;
+}
+.form{
+  padding: 10px 73px 10px 2px;
+  margin-left: 123px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+button{
+  width: 109px;
+    height: 36px;
+    margin-left: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    word-spacing: 7px;
+}
+
+
+p#second{
+  font-size: 34px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 149px;
+}
+p#third {
+  font-size: 34px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 9px;
+}
+
+
+p{
+  font-size: 18px;
+    color: white;
+    font-weight: bold;
+   margin: 20px 60px 0px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   
+}
